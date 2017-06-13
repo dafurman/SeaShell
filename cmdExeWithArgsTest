@@ -1,0 +1,25 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+echo
+echo ========================================
+echo Demonstrating nsh with a single command and one or more arguments:
+echo ========================================
+echo
+echo Demonstrating "./nsh ls -l"
+./nsh ls -l
+echo
+echo Demonstrating "./nsh touch foo"
+./nsh touch foo
+echo
+echo Demonstrating "./nsh ls -li (again, to show foo was created)"
+./nsh ls -li
+echo
+echo Demonstrating "./nsh rm foo"
+./nsh rm foo
+echo
+echo Demonstrating "./nsh ls -lS (again, to show foo was removed)"
+./nsh ls -lS
+echo
+echo Demonstrating "./nsh who am I"
+./nsh who am I

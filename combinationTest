@@ -1,0 +1,18 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+echo
+echo ========================================
+echo Demonstrating nsh with combinations of operators and pipes
+echo ========================================
+echo
+echo Demonstrating "./nsh sort < loremIpsum.txt > sortedLatin.txt"
+./nsh sort < loremIpsum.txt > sortedLatin.txt
+echo Result:
+./nsh cat sortedLatin.txt
+echo
+echo Demonstrating "./nsh sort < makefile | wc -l > makefilewc.txt"
+./nsh sort < makefile | wc -l > "num words in makefile.txt"
+echo Result:
+./nsh cat makefilewc.txt
+echo

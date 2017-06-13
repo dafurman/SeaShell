@@ -1,0 +1,17 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+echo
+echo ========================================
+echo Demonstrating nsh with a single command:
+echo ========================================
+echo
+echo Demonstrating "./nsh ls"
+./nsh ls
+echo
+echo Demonstrating "./nsh pwd"
+./nsh pwd
+echo
+echo Demonstrating "./nsh id"
+./nsh id
+echo

@@ -1,0 +1,14 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+echo
+echo ========================================
+echo Demonstrating nsh with input redirection operators
+echo ========================================
+echo
+echo Demonstrating "./nsh wc < ls.txt"
+./nsh wc < ls.txt
+echo
+echo Demonstrating "./nsh sort < loremIpsum.txt"
+./nsh sort < loremIpsum.txt
+echo

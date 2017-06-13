@@ -1,0 +1,14 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+
+./cmdExeNoArgsTest
+./cmdExeWithArgsTest
+./outputRedirectionTest
+./inputRedirectionTest
+./onePipeTest
+./multiplePipeTest
+./combinationTest
+./quotesTest
+
+#./cleanup

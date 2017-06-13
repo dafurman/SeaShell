@@ -1,0 +1,8 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+echo
+echo ========================================
+echo Removing files created for testing
+echo ========================================
+rm "hello.txt" "loremIpsum.txt" "ls.txt" "num words in makefile.txt" "sortedLatin.txt" "Test File" "Test File2"

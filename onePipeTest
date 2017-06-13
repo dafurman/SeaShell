@@ -1,0 +1,16 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+echo
+echo ========================================
+echo Demonstrating nsh with piping
+echo ========================================
+echo
+echo Demonstrating "./nsh ls | wc"
+./nsh ls | wc
+echo
+echo Demonstrating "./nsh cat | fmt  | head -n 1"
+./nsh ls | head -n 1
+echo
+echo Demonstrating "./nsh cat loremIpsum.txt | fmt"
+./nsh cat loremIpsum.txt | fmt

@@ -1,0 +1,17 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+echo
+echo ========================================
+echo Demonstrating nsh with multiple pipes
+echo ========================================
+echo
+echo Demonstrating "./nsh ls | wc | wc"
+./nsh ls | wc | wc
+echo
+echo Demonstrating "./nsh ls -l | sort | wc"
+./nsh ls -l | sort | wc
+echo
+echo Demonstrating "./nsh ls -l | sort | head -n 3"
+./nsh ls -l | sort | head -n 3
+echo

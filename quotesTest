@@ -1,0 +1,21 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+echo
+echo ========================================
+echo Demonstrating nsh with the use of single and double quotation marks
+echo ========================================
+echo
+echo Demonstrating './nsh echo Test"s' - double quote inside, apostrophe outside
+./nsh echo 'Test"s'
+echo
+echo Demonstrating "./nsh echo Test's" - apostrophe inside, double quote outside
+./nsh echo "Test's"
+echo
+echo Demonstrating './nsh touch "Test File"' - Using double quotes to give files spaced names.
+./nsh touch "Test File"
+ls "Test File"
+echo
+echo Demonstrating './nsh touch "Test File2"' - Using apostrophes to give files spaced names.
+./nsh touch "Test File2"
+ls "Test File2"

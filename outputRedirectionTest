@@ -1,0 +1,26 @@
+# David Furman
+# Student 63794035
+# This is a demonstration of the functionality of my c shell.
+echo
+echo ========================================
+echo Demonstrating nsh using the output redirection operator:
+echo ========================================
+echo
+echo Demonstrating ./nsh "echo 'Hello World' > hello.txt"
+./nsh echo 'Hello World' > hello.txt
+echo
+echo file contents:
+./nsh cat hello.txt
+echo
+echo Demonstrating "./nsh ls > ls.txt"
+./nsh ls > ls.txt
+echo
+echo file contents:
+./nsh cat ls.txt
+echo
+echo Demonstrating "./nsh echo Lorem ipsum dolor sit amet,consectetur adipiscing elit. Cras sollicitudin at elit vitae finibus. Aliquam malesuada turpis nec luctus laoreet." > loremIpsum.txt
+./nsh echo Lorem ipsum dolor sit amet,consectetur adipiscing elit. Cras sollicitudin at elit vitae finibus. Aliquam malesuada turpis nec luctus laoreet. > loremIpsum.txt
+echo
+echo file contents:
+./nsh cat loremIpsum.txt
+echo
